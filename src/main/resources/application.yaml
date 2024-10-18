@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:ORCL
+    username: Arman
+    password: 2468abcdef
+  main:
+    banner-mode: off
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mvc:
+    static-path-pattern: /content/**
+logging:
+  level:
+    root: error
+server:
+  port: 8090
+
+armanaj:
+  app:
+    jwtSecret: ArmanAJSecret
+    jwtExpirationMs: 86400000
