@@ -74,5 +74,7 @@ Contact
 For any issues or inquiries, please contact the developer:
 
 Arman Aminjavaheri
+Email : Aminjavaheriarman@gmail.com
 GitHub: Arman-Aj
+
 Telegram: Rman_Aj
